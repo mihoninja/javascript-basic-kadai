@@ -23,9 +23,8 @@ for (let i = 0; i <= 15; i++) {
 }
 
 // while文の場合
-let num = Math.floor(Math.random() * 16);
+let i = 0;
 
-while (num !== 15) {
-  num = Math.floor(Math.random() * 16);
-  console.log(holidays[num]);
+while (i < 16) {
+  console.log(holidays[i++]);
 }
